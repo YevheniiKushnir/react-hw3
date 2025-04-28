@@ -1,0 +1,46 @@
+.rating {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  gap: 20px;
+  padding: 20px;
+
+  ul {
+    list-style: none;
+  }
+}
+
+.ratingList {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+
+  img {
+    width: 100px;
+    aspect-ratio: 1/ 1;
+  }
+}
+
+.descriptionList {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+
+  button {
+    padding: 10px;
+    min-width: 200px;
+    background-color: #666;
+    color: #eee;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
